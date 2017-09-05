@@ -69,6 +69,25 @@ Det nye system vil være en kopi af Hacker News med henblik på nogle ændringer
 Du vil tjene 1 point om dagen. Dertil vil du tjene flere point hvis du publisherer nyheder.
 På det nuværende system er det svært at se hvad guidelines er. Det resultere i irrelevante opslag og hadefulde kommentarer. Det nye system vil i højere grad havde fokus på guidelines, og sikre sig, at alle nye brugere bliver præsenteret for guidelines.
 
+# Functional Requirements
+
+Man skal kunne oprette en bruger
+Man skal kunne logge ind
+Man skal kunne logge ud
+Kunne poste nyheder
+Kunne kommentere på nyheder
+Kommentere på andre kommentarer
+Kunne upvote en nyhed
+Kunne downvote en nyhed
+Pointystem
+Man skal kunne markere en nyhed som spam
+Vise en liste af nyheder
+Man skal kunne skjule en nyhed
+Glemt password
+
+
+# Non Functional Requirements
+
 ## Usability
 Alle som har kendskab og har benyttet nyhedssites som f.eks. Reddit og Hacker News, vil have let ved at bruge systemet. Det er en kopi af Hacker News, og vil derfor have et brugervenligt interface samt genkendeligt feed. Det vil gøre, at der ikke vil opstå tvivl i forhold til brug af systemet.
 
