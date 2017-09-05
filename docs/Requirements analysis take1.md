@@ -188,4 +188,4 @@ Down-voting story (without 500 karma points)
 
 * __Flag__ - En funktion, der giver en bruger mulighed for at markere/rapportere en nyhed som krænkende, spam, spoiler.
 * __Upvote / Downvote__ - Brugere skal have mulighed for at bedømme andre brugeres indlæg ved brug af upvote og downvote funktion.
-* __Scenario__ - 
+* __Scenarie__ - et usage scenarie er beskrivelsen af et "real-world" eksempel, hvor en eller flere mennesker bruger en af systemets funktioner
