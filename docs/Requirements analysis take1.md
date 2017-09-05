@@ -120,63 +120,63 @@ Succesful logging into the system
 4. Web-applikationen linker til frontpagen.
 
 Unsuccesful logging into the system
-1.	Brugeren går ind på web-applikationen.
-2.	Brugeren skriver forkerte credentials i de tomme tekst felter: ”username” og ”password”.
-3.	Brugeren trykker på ”log in” knappen.
-4.	Web-applikationen printer ”The username or password are incorrect”.
+1. Brugeren går ind på web-applikationen.
+2. Brugeren skriver forkerte credentials i de tomme tekst felter: ”username” og ”password”.
+3. Brugeren trykker på ”log in” knappen.
+4. Web-applikationen printer ”The username or password are incorrect”.
 
 Reporting a story for spam
-1.	Brugeren klikker på ”report for spam” under en post som brugeren har set før.
-2.	Web-applikationen printer ”Thanks for your report”.
+1. Brugeren klikker på ”report for spam” under en post som brugeren har set før.
+2. Web-applikationen printer ”Thanks for your report”.
 
 De følgende scenarier forventer at brugeren allerede er logget ind i systemet. (se evt. ”Logging into the system”).
 Succesfully creating a story
-1.	Brugeren klikker på ”Create story” knappen.
-2.	Brugeren udfylder den tomme formular.
-3.	Brugeren klikker på ”Post story” knappen.
-4.	Web-applikationen printer ”Story was posted”.
+1. Brugeren klikker på ”Create story” knappen.
+2. Brugeren udfylder den tomme formular.
+3. Brugeren klikker på ”Post story” knappen.
+4. Web-applikationen printer ”Story was posted”.
 
 Unsuccesfully creating a story
-1.	Brugeren klikker på ”Create story” knappen.
-2.	Brugeren udfylder ikke den tomme formular.
-3.	Brugeren klikker på ”Post story” knappen.
-4.	Web-applikationen printer ”Story was not posted because there was no content”.
+1. Brugeren klikker på ”Create story” knappen.
+2. Brugeren udfylder ikke den tomme formular.
+3. Brugeren klikker på ”Post story” knappen.
+4. Web-applikationen printer ”Story was not posted because there was no content”.
 
 Succesfully commenting on a story
-1.	Brugeren klikker på et opslag, som vedkommende ville kommentere.
-2.	Brugeren skriver en kommentar i det tomme tekst felt.
-3.	Brugeren klikker på ”Comment” knappen.
-4.	Kommentaren bliver nu vidst i tråden.
+1. Brugeren klikker på et opslag, som vedkommende ville kommentere.
+2. Brugeren skriver en kommentar i det tomme tekst felt.
+3. Brugeren klikker på ”Comment” knappen.
+4. Kommentaren bliver nu vidst i tråden.
 
 Unsuccesfully commenting on a story
-1.	Brugeren klikker på et opslag, som vedkommende ville kommentere.
-2.	Brugeren skriver intet i det tomme tekst felt.
-3.	Brugeren klikker på ”Comment” knappen.
-4.	Web-applikationen printer ”The comment was empty and was therefor not added”.
+1. Brugeren klikker på et opslag, som vedkommende ville kommentere.
+2. Brugeren skriver intet i det tomme tekst felt.
+3. Brugeren klikker på ”Comment” knappen.
+4. Web-applikationen printer ”The comment was empty and was therefor not added”.
 
 Succesfully commenting on a Comment
-1.	Brugeren klikker på et opslag.
-2.	Brugeren klikker på ”reply” knappen på en kommentere som vedkommende ville kommentere på.
-3.	Brugeren skriver en kommentar i det tomme tekst felt, som dukkede op efter at have klikket på ”reply” knappen.
-4.	Brugeren klikker på ”Comment” knappen.
+1. Brugeren klikker på et opslag.
+2. Brugeren klikker på ”reply” knappen på en kommentere som vedkommende ville kommentere på.
+3. Brugeren skriver en kommentar i det tomme tekst felt, som dukkede op efter at have klikket på ”reply” knappen.
+4. Brugeren klikker på ”Comment” knappen.
 
 Unsuccesfully commenting on a Comment
-1.	Brugeren klikker på et opslag.
-2.	Brugeren klikker på ”reply” knappen på en kommentere som vedkommende ville kommentere på.
-3.	Brugeren skriver intet i det tomme tekst felt, som dukkede op efter at have klikket på ”reply” knappen.
-4.	Web-applikationen printer ”The comment was empty and was therefor not added”.
+1. Brugeren klikker på et opslag.
+2. Brugeren klikker på ”reply” knappen på en kommentere som vedkommende ville kommentere på.
+3. Brugeren skriver intet i det tomme tekst felt, som dukkede op efter at have klikket på ”reply” knappen.
+4. Web-applikationen printer ”The comment was empty and was therefor not added”.
 
 Up-voting story
-1.	Brugeren klikker på pilen der pejer op ved siden af et opslag som vedkommende godt kan lide.
-2.	Web-applikationen highlighter pilen for at indikere at opslaget er blevet up-voted.
+1. Brugeren klikker på pilen der pejer op ved siden af et opslag som vedkommende godt kan lide.
+2. Web-applikationen highlighter pilen for at indikere at opslaget er blevet up-voted.
 
 Down-voting story (with 500 karma points)
-1.	Brugeren klikker på pilen der pejer ned ved siden at et opslag som vedkommende ikke kan lide.
-2.	Web-applikationen highlighter pilen for at indikere at opslaget er blevet down-voted.
+1. Brugeren klikker på pilen der pejer ned ved siden at et opslag som vedkommende ikke kan lide.
+2. Web-applikationen highlighter pilen for at indikere at opslaget er blevet down-voted.
 
 Down-voting story (without 500 karma points)
-1.	Brugeren klikker på pilen der pejer ned ved siden at et opslag som vedkommende ikke kan lide.
-2.	Web-applikationen printer ”You need more then 500 karma points to downvote”.
+1. Brugeren klikker på pilen der pejer ned ved siden at et opslag som vedkommende ikke kan lide.
+2. Web-applikationen printer ”You need more then 500 karma points to downvote”.
 
 
 
