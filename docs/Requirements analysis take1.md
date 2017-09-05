@@ -108,3 +108,11 @@ Brugeren skal acceptere cookies
 ## Interface
 Vi bestræber os på, at lave en simpel brugergrænseflade som er intuitiv, simpel og naturlig for brugeren.
 Packaging: Vores system kører via internetbrowser, som er platformuafhængig.
+
+# System Models
+
+## Scenarios
+
+## Use Case Models
+
+![](https://github.com/hilleer/hackerNews-clone-project/blob/master/use%20case.png)
