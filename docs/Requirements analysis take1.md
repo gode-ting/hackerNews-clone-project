@@ -71,19 +71,19 @@ På det nuværende system er det svært at se hvad guidelines er. Det resultere 
 
 # Functional Requirements
 
-Man skal kunne oprette en bruger
-Man skal kunne logge ind
-Man skal kunne logge ud
-Kunne poste nyheder
-Kunne kommentere på nyheder
-Kommentere på andre kommentarer
-Kunne upvote en nyhed
-Kunne downvote en nyhed
-Pointystem
-Man skal kunne markere en nyhed som spam
-Vise en liste af nyheder
-Man skal kunne skjule en nyhed
-Glemt password
+* Man skal kunne oprette en bruger
+* Man skal kunne logge ind
+* Man skal kunne logge ud
+* Kunne poste nyheder
+* Kunne kommentere på nyheder
+* Kommentere på andre kommentarer
+* Kunne upvote en nyhed
+* Kunne downvote en nyhed
+* Pointystem
+* Man skal kunne markere en nyhed som spam
+* Vise en liste af nyheder
+* Man skal kunne skjule en nyhed
+* Glemt password
 
 
 # Non Functional Requirements
