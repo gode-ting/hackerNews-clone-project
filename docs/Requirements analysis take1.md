@@ -69,3 +69,23 @@ Det nye system vil være en kopi af Hacker News med henblik på nogle ændringer
 Du vil tjene 1 point om dagen. Dertil vil du tjene flere point hvis du publisherer nyheder.
 På det nuværende system er det svært at se hvad guidelines er. Det resultere i irrelevante opslag og hadefulde kommentarer. Det nye system vil i højere grad havde fokus på guidelines, og sikre sig, at alle nye brugere bliver præsenteret for guidelines.
 
+## Usability
+Alle som har kendskab og har benyttet nyhedssites som f.eks. Reddit og Hacker News, vil have let ved at bruge systemet. Det er en kopi af Hacker News, og vil derfor have et brugervenligt interface samt genkendeligt feed. Det vil gøre, at der ikke vil opstå tvivl i forhold til brug af systemet.
+
+## Reliability 
+The system has to have an uptime of more than 95%. Your system shall not 'loose' any content, which is sent to it from the simulator program. That is, even if your system is for example down for upgrade, there should be a mechanism buffering incoming content, which can be published to the system when it is operational again.
+## Performance 
+Det vigtigste indhold på siden skal være visningsklar inden for tre sekunder, således at siden er brugbar. Mindre vigtigt indhold kan godt indlæses efterfølgende.
+
+## Supportability
+Vi understøtter de større browsere som FireFox, Chrome, Safari, Edge, Opera. Logning af systemet til fejlløsning. 
+
+## Implementation
+Vi kører med en Heroku Hobby server. Never Sleeps, gratis SSL, Application Metrics, Multiple Worjers, 512 MB RAM. $7/month. Vi bruger både en MongoDB samt SQL database på serveren. 
+
+## Legal
+Brugeren skal acceptere cookies
+
+## Interface
+Vi bestræber os på, at lave en simpel brugergrænseflade som er intuitiv, simpel og naturlig for brugeren.
+Packaging: Vores system kører via internetbrowser, som er platformuafhængig.
