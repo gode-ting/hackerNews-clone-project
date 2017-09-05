@@ -119,6 +119,6 @@ Packaging: Vores system kører via internetbrowser, som er platformuafhængig.
 
 # Glossary
 
-* __Flag__ - En funktion, der giver en bruger mulighed for at markere/rappoertere en nyhed som krænkende, spam, spoiler.
+* __Flag__ - En funktion, der giver en bruger mulighed for at markere/rapportere en nyhed som krænkende, spam, spoiler.
 * __Upvote / Downvote__ - Brugere skal have mulighed for at bedømme andre brugeres indlæg ved brug af upvote og downvote funktion.
 * __Scenario__ - 
