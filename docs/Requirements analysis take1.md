@@ -270,7 +270,7 @@ Step 4: Hvis systemet ikke kan validere input felterne, vil der blive vist en fe
 
 ### 5: Use case description for at kommentere på en nyhed
 
-__Use__ case name  Comment story
+__Use case name__ Comment story
 
 __Summary__ Brugeren kommenterer en nyhed.
 
@@ -293,6 +293,36 @@ __Main sequence:__
 7.  Systemet validerer input. 
 
 8. Systemet tilføjer kommentaren til nyheden.
+
+### 5: Use case description for at kommentere på en kommentar til en nyhed.
+
+__Use case name__  Comment on a comment story
+
+__Summary__ Brugeren kommenterer en kommentar på en nyhed.
+
+__Actor__ User
+
+__Precondition__ Man skal være logget ind.
+
+__Main sequence:__
+
+1. Brugeren er inde på forsiden og kigger på feedet. 
+2. Brugeren klikker på “comments” under nyheden som har interesse. 
+3. Brugeren ser alle kommentarer til den pågældende nyhed. 
+
+4. Brugeren klikker på “comment” under en kommentar.
+
+5. Brugeren indsætter input til feltet.
+
+6. Brugeren klikker på “Send” 
+
+7.  Systemet validerer input. 
+
+8. Systemet tilføjer den nye kommentar til kommentaren.
+
+_**Alternative sequence:**_
+
+Step 7: Hvis systemet ikke kan validere kommentaren, bliver der vist en fejlmeddelse.
 
 _**Alternative sequence:**_
 
