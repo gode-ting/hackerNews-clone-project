@@ -184,6 +184,120 @@ Down-voting story (without 500 karma points)
 
 ![](https://github.com/hilleer/hackerNews-clone-project/blob/master/use%20case.png)
 
+### 1: Use case description for at logge ind
+__Use case name__ Login
+
+__Summary__ System validerer brugeren.
+
+__Actor__ User
+
+__Precondition__  Man skal være på login siden.
+
+__Main sequence:__
+
+1. Brugeren klikker på login menuen.
+2. Systemet spørger efter brugernavn og password.
+3. Brugeren indsætter brugernavn og password.
+4. Systemet tjekker brugernavn og passwordet.
+5. Hvis inputværdierne er valide vil man blive logget ind og få vist forsiden, hvor man kan se, at man er logget ind.
+
+_**Alternative sequence:**_
+
+Step 5: Hvis brugernavn eller password er forkert, vil systemet komme med en fejlmeddelse og spørger efter det korrekte brugernavn og password.
+
+### 2: Use case description for at markere en nyhed som spam(report story)
+
+__Use case name__ Report story
+
+__Summary__ Brugeren markere en nyhed som spam.
+
+__Actor__ User
+
+__Precondition__ Man skal være logget ind.
+
+__Main sequence:__
+
+1. Brugeren er inde på forsiden og kigger på feedet. 
+2. Brugeren klikker på en “marker som spam” knap. 
+3. Systemet registrer det som spam. 
+
+_**Alternative sequence:**_
+
+Step 3: Hvis systemet har modtaget adskillige klager, vil systemet slette nyheden. 
+
+### 3: Use case description for at publishere en nyhed
+__Use case name__  Create story
+
+__Summary__ Brugeren publisherer en nyhed
+
+__Actor__ User
+
+__Precondition__ Man skal være logget ind.
+
+__Main sequence:__
+
+1. Brugeren er forsiden og klikker på “Create”. 
+2. Brugeren er inde på en side, hvor der kan indsættes information omhandlende nyheden. 
+3. Brugeren klikker på “publish” 
+
+4. Systemet validerer input felterne. 
+
+5. Systemet tilføjer nyheden til feedet. 
+
+_**Alternative sequence:**_
+
+Step 4: Hvis systemet ikke kan validere input felterne, vil der blive vist en fejlmeddelse.
+
+### 4: Use case description for at registerer sig som bruger
+
+__Use case name__  Register user
+
+__Summary__ En person kan registere sig som bruger af sitet.
+
+__Actor__  Person
+
+__Main__ sequence:
+
+1. Personen tilgår sitet.
+2. Personen klikker på register på forsiden. 
+3. Brugeren indsætter brugernavn og password.
+4. Systemet validerer brugernavn og password.
+5. Systemet tilføjer personen til systemet.
+
+_**Alternative sequence:**_
+
+Step 4: Hvis systemet ikke kan validere input felterne, vil der blive vist en fejlmeddelse.
+
+### 5: Use case description for at kommentere på en nyhed
+
+__Use__ case name  Comment story
+
+__Summary__ Brugeren kommenterer en nyhed.
+
+__Actor__ User
+
+__Precondition__ Man skal være logget ind.
+
+__Main sequence:__
+
+1. Brugeren er inde på forsiden og kigger på feedet. 
+2. Brugeren klikker på “comments” under nyheden som har interesse. 
+3. Brugeren ser alle kommentarer til den pågældende nyhed. 
+
+4. Brugeren klikker på “comment”. 
+
+5. Brugeren indsætter input til feltet.
+
+6. Brugeren klikker på “Send” 
+
+7.  Systemet validerer input. 
+
+8. Systemet tilføjer kommentaren til nyheden.
+
+_**Alternative sequence:**_
+
+Step 7: Hvis systemet ikke kan validere kommentaren, bliver der vist en fejlmeddelse.
+
 # Glossary
 
 * __Flag__ - En funktion, der giver en bruger mulighed for at markere/rapportere en nyhed som krænkende, spam, spoiler.
