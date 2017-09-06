@@ -324,10 +324,6 @@ _**Alternative sequence:**_
 
 Step 7: Hvis systemet ikke kan validere kommentaren, bliver der vist en fejlmeddelse.
 
-_**Alternative sequence:**_
-
-Step 7: Hvis systemet ikke kan validere kommentaren, bliver der vist en fejlmeddelse.
-
 ### 6: Use case description for at upvote en nyhed.
 
 __Use case name__  Upvote story 
