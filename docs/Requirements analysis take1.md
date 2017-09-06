@@ -298,6 +298,49 @@ _**Alternative sequence:**_
 
 Step 7: Hvis systemet ikke kan validere kommentaren, bliver der vist en fejlmeddelse.
 
+### 6: Use case description for at upvote en nyhed.
+
+__Use case name__  Upvote story 
+
+__Summary__ Brugeren upvoter en nyhed
+
+__Actor__    User
+
+__Precondition__    Man skal være logget ind og have optjent minimum 50 point.
+
+__Main sequence:__
+
+1. Brugeren er inde på forsiden og kigger på feedet. 
+2. Brugeren klikker på “upvote”-ikonet ved siden af en nyhed, som brugeren synes godt om.
+3. Systemet validerer  at brugeren har optjent 50 point.
+
+4. Systemet tilføjer et upvote på nyheden.
+
+_**Alternative sequence:**_
+Step 6: Hvis systemet ikke kan validere at brugeren har minimum 50 point, bliver der vist en fejlmeddelse.
+
+### 7: Use case description for at downvote en nyhed.
+
+__Use case name__ Downvote story 
+
+__Summary__ Brugeren downvoter en nyhed
+
+__Actor__ User
+
+__Precondition__ Man skal være logget ind og have optjent minimum 50 point.
+
+__Main sequence:__
+
+1. Brugeren er inde på forsiden og kigger på feedet. 
+2. Brugeren klikker på “downvote”-ikonet ved siden af en nyhed, som brugeren ikke synes godt om.
+3. Systemet validerer  at brugeren har optjent 50 point.
+4. Systemet tilføjer et downvote på nyheden.
+
+_**Alternative sequence:**_
+
+Step 6: Hvis systemet ikke kan validere at brugeren har minimum 50 point, bliver der vist en fejlmeddelse.
+
+
 # Glossary
 
 * __Flag__ - En funktion, der giver en bruger mulighed for at markere/rapportere en nyhed som krænkende, spam, spoiler.
