@@ -1,4 +1,4 @@
-# Requirements analyse
+# Requirements Elicitation
 
 ## Purpose of the system
 
