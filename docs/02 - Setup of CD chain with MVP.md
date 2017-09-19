@@ -2,9 +2,9 @@
 
 **Table of content**.
 
-* [Link](#Link)
-* [Description](#Description)
-* [Setup and configuration](#Setup-and-configuration)
+* [Link](#link)
+* [Description](#description)
+* [Setup and configuration](#setup-and-configuration)
 
 ---
 
