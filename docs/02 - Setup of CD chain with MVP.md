@@ -19,10 +19,20 @@ Vi har valgt at bruge det CI/CD setup, som vi blev præsenteret for i undervisni
 Det vil sige:
 
 VCS: Git og GitHub som host.
+
+ 
 Build Server: Jenkins
+
+
 Docker containers og DockerHub som public registry.
+
+
 Vagrant, til opsætning og håndtering af virtuelle maskiner.
+
+
 Maven repository manager – Artifactory.
+
+
 Cloud server provider – Digital Ocean.
 
 Vi har alle prøvet at bruge Travis CI, som også er et værktøj til continuous integration. 
@@ -46,3 +56,5 @@ Digital Ocean – kort opsummeret: Cloud computing platform. Server.
 Vi har opsat og konfigureret vores build jobs præcist som i [denne tutorial](https://github.com/datsoftlyngby/soft2017fall-lsd-teaching-material/blob/master/lecture_notes/05-Continuous%20Integration%20and%20Delivery.ipynb).
 
 Vi har forket de nødvendige projekter og tilpasset build jobs til at hente fra dem.
+
+HUSK (note to self): Skift til mocking branchen i frontend-choir og ændre repositories i build.grandle
