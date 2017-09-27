@@ -13,6 +13,7 @@
 [Link to the MVP application](http://46.101.190.192:8080/hello/world)
 
 [Frontend Project](https://github.com/andersbjergfelt/hackernews-clone-frontend)
+
 [Backend Project](https://github.com/andersbjergfelt/hackernews-clone-backend)
 
 ## Description
