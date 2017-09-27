@@ -235,6 +235,170 @@ docker run -d -ti -p 8080:8080 ${DOCKER_ID}/hackernewscloneserver:${BUILD_NUMBER
 ```
 ## DONE WITH BUILD JOBS
 
+## Docker containers
+
+A Docker Image acts as a blueprint or template for a Docker Container. For example *docker run openjdk:8-jdk-alpine* will create a new Docker Container based on the *openjdk:8-jdk-alpine* Docker Image.
+
+The preferred way to create a Docker Image is with a script known as a Dockerfile. Alternatively the required changes can be made through running a shell on a container and then committing it to an image. Dockerfiles have the advantage of providing the ability to automate image creation and the syntax is simple, clear and self explanatory.
+
+To build a Docker Image out of our Spring Application is to add the Dockerfile that contains the instructions for Docker to build the Image for the application.
+
+```shell
+FROM openjdk:8-jdk-alpine
+VOLUME /tmp
+ADD ./target/hackernews-clone-frontend-0.0.1-SNAPSHOT.jar app.jar
+ENV JAVA_OPTS=""
+ENTRYPOINT exec java $JAVA_OPTS -Djava.security.egd=file:/dev/./urandom -jar /app.jar
+```
+
+## Vagrant - virtual machines
+
+Vagrant is a tool for building and managing virtual machine environments in a single workflow. With an easy-to-use workflow and focus on automation, Vagrant lowers development environment setup time, increases production parity, and makes the "works on my machine" excuse a relic of the past.
+
+Right now the only VM we are using is our "build server"
+
+```shell
+Vagrant.configure(2) do |config|
+
+  config.vm.box = "bento/ubuntu-16.04"
+
+  config.vm.provider "virtualbox" do |vb|
+    # Display the VirtualBox GUI when booting the machine
+    # vb.gui = true
+
+    # Customize the amount of memory on the VM:
+    vb.memory = "2048"
+    vb.name = "cph-buildsrv"
+  end
+  # config.vm.provision "shell", inline: $script
+  config.vm.provision "shell", path: "provision.sh"
+
+  config.vm.network "forwarded_port", guest: 80, host: 8000
+  config.vm.network "forwarded_port", guest: 8080, host: 9090
+  # enable this to share remote access with others
+  config.vm.network "public_network"
+end
+```
+*provision.sh* installs Jenkins. 
+
+**Maven repository manager – Artifactory.(OPEN SOURCE)
+
+*A repository manager is a dedicated server application designed to manage repositories of binary components. The usage of a repository manager is considered an essential best practice for any significant usage of Maven*
+
+A repository manager serves these essential purposes:
+
+* act as dedicated proxy server for public Maven repositories
+* provide repositories as a deployment destination for your Maven project outputs
+
+### Benefits and Features
+
+Using a repository manager provides the following benefits and features:
+
+* significantly reduced number of downloads off remote repositories, saving time and bandwidth resulting in increased build performance
+
+* improved build stability due to reduced reliance on external repositories
+
+* increased performance for interaction with remote SNAPSHOT repositories
+
+* potential for control of consumed and provided artifacts
+
+* creates a central storage and access to artifacts and meta data about them exposing build outputs to consumer such as other projects and developers, but also QA or operations teams or even customers
+
+* provides an effective platform for exchanging binary artifacts within your organization and beyond without the need for building artifact from source
+
+Our remote machine (PROD) is running with an Artifactory instance.
+It is done in the initial server setup.
+
+*FROM setup.sh*
+```shell
+  artifactory:
+    image: mattgruter/artifactory:3.9.2
+    hostname: artifactory
+    ## build: artifactory/
+    ports:
+      - "8082:8080"
+    volumes:
+      - /etc/localtime:/etc/localtime
+      - /artifactory/data
+      - /artifactory/logs
+      - /artifactory/backup
+    environment:
+      - JAVA_OPTS='-Djsse.enableSNIExtension=false'
+```
+To validate: point your browser to http://<your_ip>/:8082 where you should see documentation on how to connect to the Artifactory instance.
+
+## Cloud server provider – Digital Ocean.
+
+There are many different cloud computing providers, such as Amazon AWS, Google Cloud Platform, IBM Bluemix, etc.
+
+We use *Digital Ocean*
+
+To log onto your remote servers more easily and properly you setup a pair of SSH keys and register the public key with DigitalOcean. 
+
+### How to log in on Windows
+
+use PuTTY, an SSH client. 
+
+Once PuTTY is installed, start the program.
+
+On the PuTTY Configuration screen that opens, fill in the Host Name (or IP address) field with the Droplet's IP address. Confirm that the Port is set to 22 and that the Connection type SSH is selected.
+
+Once everything is configured, you can save these settings for future logins by entering a title into the Saved Sessions field. Click Save to store settings.
+
+Before you connect to a server for the first time, PuTTY will ask you to confirm that you trust the server. Choose Yes to save the server identity in PuTTY's cache or No to connect without saving the identity.
+
+After PuTTY starts, type in the root password that was emailed to you. Note that if you uploaded keys, you will either be connected directly or prompted for the password you set on your key.
+
+
+*Remember to use PuTTYgen to generate SSH keys.*
+
+PuTTYgen is an key generator tool for creating SSH keys for PuTTY. It is analogous to the ssh-keygen tool used in some other SSH implementations.
+
+The basic function is to create public and private key pairs. PuTTY stores keys in its own format in .ppk files. However, the tool can also convert keys to and from other formats.
+
+To create a new key pair, select the type of key to generate from the bottom of the screen (using SSH-2 RSA with 2048 bit key size is good for most people; another good well-known alternative is ECDSA).
+
+Then click Generate, and start moving the mouse within the Window. Putty uses mouse movements to collect randomness.
+
+You should save at least the private key by clicking Save private key. It may be advisable to also save the public key, though it can be later regenerated by loading the private key (by clicking Load).
+
+### INSTALLING THE PUBLIC KEY AS AN AUTHORIZED KEY ON A SERVER
+
+Send your public key to me and I will add it to *~/.ssh/authorized_keys* 
+Afterwards you can configure PuTTY to use your private key file.
+
+//INSERT COOL SCREENSHOT
+
+### Manually generating your SSH key in Mac OS X
+
+```shell
+ssh-keygen -t rsa
+```
+This starts the key generation process. When you execute this command, the ssh-keygen utility prompts you to indicate where to store the key.
+
+Press the ENTER key to accept the default location. The ssh-keygen utility prompts you for a passphrase.
+
+Type in a passphrase. You can also hit the ENTER key to accept the default (no passphrase). However, this is not recommended.
+Warning! You will need to enter the passphrase a second time to continue.
+
+After you confirm the passphrase, the system generates the key pair.
+
+*Your private key is saved to the id_rsa file in the .ssh directory*
+
+*Never share your private key with anyone!*
+
+Your public key is saved to the id_rsa.pub;file 
+
+NOTE: send public key and I'll add it to *~/.ssh/authorized_keys* 
+
+Afterwards you can use your private key to access our remote server on Digital Ocean.
+
+
+
+
+
+
+
 
 
 
