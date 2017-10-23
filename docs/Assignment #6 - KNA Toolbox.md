@@ -4,8 +4,11 @@ development project.
 
 
 ## 1 Divide into sub-systems
+We have divided our project into two sub-systems. 
 
+**Backend**: [Backend](https://github.com/gode-ting/hackernews-clone-backend)
 
+**Frontend**: [Frontend](https://github.com/gode-ting/hackerNews-clone-project-frontend)
 
 ## 2 Logical Data Model
 
