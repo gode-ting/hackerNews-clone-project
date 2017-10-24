@@ -57,33 +57,7 @@ __Extensions__
 
 
 __Special Requirements__ 
- 
-### 1: Use case description for at logge ind
 
-__Use case__ Log ind
-
-__Scope__ N/A
-
-__Level Goal__ Få adgang og rettigheder til at uploade,poste m.m
-
-__Primary Actor__  User
-
-__Precondition__ At useren er oprettet i systemet.
-
-__Main succes scenario:__
-
-1. Brugeren klikker på login menuen.
-2. Systemet spørger efter brugernavn og password.
-3. Brugeren indsætter brugernavn og password.
-4. Systemet tjekker brugernavn og passwordet.
-5. Hvis inputværdierne er valide vil man blive logget ind og få vist forsiden, hvor man kan se, at man er logget ind.
-
-__Success guaratess__ Useren er logget ind.
-
-__Extensions__ Man skal have oprettet en profil først.
-
-__Special Requirements__ NONE
- 
 
 ### 2: Use case description for oprette en profil
 
@@ -115,121 +89,110 @@ __Extensions__ Ingen
 __Special Requirements__ NONE
 
  
-### 1: Use case description for at logge ind
+### 3: Use case description for at logge ud
 
-__Use case__ Log ind
+__Use case__ Log ud
 
 __Scope__ N/A
 
-__Level Goal__ User
+__Level Goal__ Logge ud af systemet og dermed ikke have de samme rettigheder, som da man var logget ind.
 
-__Primary Actor__  Man skal være på login siden.
+__Primary Actor__  User
 
-__Precondition__ 
+__Precondition__ Man skal være logget ind.
 
 __Main succes scenario:__
 
-1. Brugeren klikker på login menuen.
-2. Systemet spørger efter brugernavn og password.
-3. Brugeren indsætter brugernavn og password.
-4. Systemet tjekker brugernavn og passwordet.
-5. Hvis inputværdierne er valide vil man blive logget ind og få vist forsiden, hvor man kan se, at man er logget ind.
+1. Brugeren klikker på logout knappen.
+2. Man har ikke de samme rettigheder, som da man var logget ind.
+
+__Success guaratess__ Useren er logget ud af systemet.
 
 
-__Success guaratess__ 
+__Extensions__ Log ind
 
 
-__Extensions__ 
+__Special Requirements__ NONE
 
 
-__Special Requirements__ 
  
-### 1: Use case description for at logge ind
+### 4: Use case description for at oprette en post
 
-__Use case__ Log ind
+__Use case__ Opret en post
 
 __Scope__ N/A
 
-__Level Goal__ User
+__Level Goal__ At oprette en post og den forekommer på forsiden.
 
-__Primary Actor__  Man skal være på login siden.
+__Primary Actor__  User
 
-__Precondition__ 
+__Precondition__ Man skal være logget ind
 
 __Main succes scenario:__
 
-1. Brugeren klikker på login menuen.
-2. Systemet spørger efter brugernavn og password.
-3. Brugeren indsætter brugernavn og password.
-4. Systemet tjekker brugernavn og passwordet.
-5. Hvis inputværdierne er valide vil man blive logget ind og få vist forsiden, hvor man kan se, at man er logget ind.
+1. Useren er forsiden og klikker på “Create”.
+2. Useren er inde på en side, hvor der kan indsættes information omhandlende posten.
+3. Useren klikker på “publish”
+4. Systemet validerer input felterne.
+5. Systemet tilføjer nyheden til feedet.
 
+__Success guaratess__ N/A
 
-__Success guaratess__ 
+__Extensions__ N/A
 
-
-__Extensions__ 
-
-
-__Special Requirements__ 
+__Special Requirements__ NONE
  
-### 1: Use case description for at logge ind
 
-__Use case__ Log ind
+### 5: Use case description for at redigere en post
+
+__Use case__ Redigere en post 
 
 __Scope__ N/A
 
-__Level Goal__ User
+__Level Goal__ At indholdet på det pågældende post bliver ændret til det ønskede.
 
-__Primary Actor__  Man skal være på login siden.
+__Primary Actor__ User
 
-__Precondition__ 
+__Precondition__ Useren er logget ind.
 
 __Main succes scenario:__
 
-1. Brugeren klikker på login menuen.
-2. Systemet spørger efter brugernavn og password.
-3. Brugeren indsætter brugernavn og password.
-4. Systemet tjekker brugernavn og passwordet.
-5. Hvis inputværdierne er valide vil man blive logget ind og få vist forsiden, hvor man kan se, at man er logget ind.
+1. Useren klikker på sin post, som han vil redigere.
+2. Useren er inde på en side, hvor der kan redigeres information omhandlende posten.
+3. Useren klikker på “publish”
+4. Systemet validerer input felterne.
+5. Systemet redigerer posten.
 
 
-__Success guaratess__ 
+__Success guaratess__ At posten bliver redigeret
 
+__Extensions__ Opret post
 
-__Extensions__ 
-
-
-__Special Requirements__ 
+__Special Requirements__ NONE
  
-### 1: Use case description for at logge ind
 
-__Use case__ Log ind
+### 6: Use case description for at slette en post.
+__Use case__ Slet post
 
 __Scope__ N/A
 
-__Level Goal__ User
+__Level Goal__ Useren sletter sin post og den forsvinder.
 
-__Primary Actor__  Man skal være på login siden.
+__Primary Actor__  User
 
-__Precondition__ 
+__Precondition__ Useren er logget ind og har oprettet en post.
 
 __Main succes scenario:__
 
-1. Brugeren klikker på login menuen.
-2. Systemet spørger efter brugernavn og password.
-3. Brugeren indsætter brugernavn og password.
-4. Systemet tjekker brugernavn og passwordet.
-5. Hvis inputværdierne er valide vil man blive logget ind og få vist forsiden, hvor man kan se, at man er logget ind.
+1. Useren klikker på "Delete" ud fra sin post.
+2. Systemet sletter posten.
 
+__Success guaratess__ Posten bliver slettet
 
-__Success guaratess__ 
+__Extensions__ Opret post
 
+__Special Requirements__ NONE
 
-__Extensions__ 
-
-
-__Special Requirements__ 
  
 ### 1: Use case description for at logge ind
 
