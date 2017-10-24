@@ -194,268 +194,162 @@ __Extensions__ Opret post
 __Special Requirements__ NONE
 
  
-### 1: Use case description for at logge ind
+### 7: Use case description for at upvote en post
 
-__Use case__ Log ind
-
-__Scope__ N/A
-
-__Level Goal__ User
-
-__Primary Actor__  Man skal være på login siden.
-
-__Precondition__ 
-
-__Main succes scenario:__
-
-1. Brugeren klikker på login menuen.
-2. Systemet spørger efter brugernavn og password.
-3. Brugeren indsætter brugernavn og password.
-4. Systemet tjekker brugernavn og passwordet.
-5. Hvis inputværdierne er valide vil man blive logget ind og få vist forsiden, hvor man kan se, at man er logget ind.
-
-
-__Success guaratess__ 
-
-
-__Extensions__ 
-
-
-__Special Requirements__ 
- 
-### 1: Use case description for at logge ind
-
-__Use case__ Log ind
+__Use case__ Upvote post
 
 __Scope__ N/A
 
-__Level Goal__ User
+__Level Goal__ En post bliver upvoted og en tilhørende user får karma points
 
-__Primary Actor__  Man skal være på login siden.
+__Primary Actor__ User
 
-__Precondition__ 
+__Precondition__ En post er oprettet og useren er logget ind.
 
 __Main succes scenario:__
 
-1. Brugeren klikker på login menuen.
-2. Systemet spørger efter brugernavn og password.
-3. Brugeren indsætter brugernavn og password.
-4. Systemet tjekker brugernavn og passwordet.
-5. Hvis inputværdierne er valide vil man blive logget ind og få vist forsiden, hvor man kan se, at man er logget ind.
+1. Useren klikker på upvote knappen tilhørende en post.
+2. Posten får et upvote.
+3. Den tilhørende User får karma point.
 
+__Success guaratess__ Den pågældende post bliver upvoted.
 
-__Success guaratess__ 
+__Includes__ User får karma point.
 
+__Special Requirements__ NONE
 
-__Extensions__ 
-
-
-__Special Requirements__ 
  
-### 1: Use case description for at logge ind
+### 8: Use case description for at downvote post
 
-__Use case__ Log ind
+__Use case__ Downvote post
 
 __Scope__ N/A
 
-__Level Goal__ User
+__Level Goal__ Posten får et downvote og den tilhørende User få fjernet karma point
 
-__Primary Actor__  Man skal være på login siden.
+__Primary Actor__  User
 
-__Precondition__ 
+__Precondition__ En post er oprettet, User er logget ind, og har nok karma point til at downvote.
 
 __Main succes scenario:__
 
-1. Brugeren klikker på login menuen.
-2. Systemet spørger efter brugernavn og password.
-3. Brugeren indsætter brugernavn og password.
-4. Systemet tjekker brugernavn og passwordet.
-5. Hvis inputværdierne er valide vil man blive logget ind og få vist forsiden, hvor man kan se, at man er logget ind.
+1. Useren klikker på downvote knappen tilhørende en post.
+2. Systemet tjekker om brugeren har nok karma points til at downvote
+2. Posten får et downvote.
+3. Den tilhørende User mister karma points.
 
+__Success guaratess__ Den pågældende post bliver downvoted.
 
-__Success guaratess__ 
+__Extensions__ N/A
 
+__Special Requirements__ Useren skal have det krævet antal karma points for at kunne downvote.
 
-__Extensions__ 
-
-
-__Special Requirements__ 
  
-### 1: Use case description for at logge ind
+### 9: Use case description for at kommentere på en post
 
-__Use case__ Log ind
+__Use case__ Kommenter på post
 
 __Scope__ N/A
 
-__Level Goal__ User
+__Level Goal__ At der bliver oprettet en kommentar på en post.
 
-__Primary Actor__  Man skal være på login siden.
+__Primary Actor__  User
 
-__Precondition__ 
+__Precondition__ Useren skal være logget ind.
 
 __Main succes scenario:__
 
-1. Brugeren klikker på login menuen.
-2. Systemet spørger efter brugernavn og password.
-3. Brugeren indsætter brugernavn og password.
-4. Systemet tjekker brugernavn og passwordet.
-5. Hvis inputværdierne er valide vil man blive logget ind og få vist forsiden, hvor man kan se, at man er logget ind.
+1. Useren er inde på forsiden og ser på feedet.
+
+2. Useren klikker på “comments” under nyheden som har interesse.
+
+3. Useren ser alle kommentarer til den pågældende nyhed.
+
+4. Useren klikker på “comment”.
+
+5. Useren indsætter input til feltet.
+
+6. Useren klikker på “Send”
+
+7. Systemet validerer input.
+
+8. Systemet tilføjer kommentaren til nyheden.
 
 
-__Success guaratess__ 
+__Success guaratess__ N/A 
 
 
-__Extensions__ 
+__Extensions__ N/A
 
-
-__Special Requirements__ 
+__Special Requirements__ NONE 
  
-### 1: Use case description for at logge ind
+### 10: Use case description for at kommentere på en kommentar
 
-__Use case__ Log ind
+__Use case__ Kommenter på en kommentar
 
 __Scope__ N/A
 
-__Level Goal__ User
+__Level Goal__ Kommentaren får en kommentar
 
-__Primary Actor__  Man skal være på login siden.
+__Primary Actor__  User
 
-__Precondition__ 
+__Precondition__ Useren skal være logget ind.
 
 __Main succes scenario:__
 
-1. Brugeren klikker på login menuen.
-2. Systemet spørger efter brugernavn og password.
-3. Brugeren indsætter brugernavn og password.
-4. Systemet tjekker brugernavn og passwordet.
-5. Hvis inputværdierne er valide vil man blive logget ind og få vist forsiden, hvor man kan se, at man er logget ind.
+1. Useren er inde på forsiden og ser på feedet.
+
+2. Useren klikker på “comments” under nyheden som har interesse.
+
+3. Useren ser alle kommentarer til den pågældende nyhed.
+
+4. Useren klikker på “comment” under en kommentar.
+
+5. Useren indsætter input til feltet.
+
+6. Useren klikker på “Send”
+
+7. Systemet validerer input.
+
+8. Systemet tilføjer den nye kommentar til kommentaren.
 
 
-__Success guaratess__ 
+__Success guaratess__ Kommentaren bliver tilkoblet kommentaren(parent)
 
 
-__Extensions__ 
+__Extensions__ N/A
 
 
-__Special Requirements__ 
+__Special Requirements__ N/A
+
  
-### 1: Use case description for at logge ind
+### 11: Use case description for at markere en post som spam
 
-__Use case__ Log ind
+__Use case__ Marker som spam
 
 __Scope__ N/A
 
-__Level Goal__ User
+__Level Goal__ Den pågældende post bliver markeret som spam.
 
-__Primary Actor__  Man skal være på login siden.
+__Primary Actor__  User
 
-__Precondition__ 
-
-__Main succes scenario:__
-
-1. Brugeren klikker på login menuen.
-2. Systemet spørger efter brugernavn og password.
-3. Brugeren indsætter brugernavn og password.
-4. Systemet tjekker brugernavn og passwordet.
-5. Hvis inputværdierne er valide vil man blive logget ind og få vist forsiden, hvor man kan se, at man er logget ind.
-
-
-__Success guaratess__ 
-
-
-__Extensions__ 
-
-
-__Special Requirements__ 
- 
-### 1: Use case description for at logge ind
-
-__Use case__ Log ind
-
-__Scope__ N/A
-
-__Level Goal__ User
-
-__Primary Actor__  Man skal være på login siden.
-
-__Precondition__ 
+__Precondition__ Useren skal være logget ind.
 
 __Main succes scenario:__
 
-1. Brugeren klikker på login menuen.
-2. Systemet spørger efter brugernavn og password.
-3. Brugeren indsætter brugernavn og password.
-4. Systemet tjekker brugernavn og passwordet.
-5. Hvis inputværdierne er valide vil man blive logget ind og få vist forsiden, hvor man kan se, at man er logget ind.
+1. Useren er inde på forsiden og kigger på feedet.
+2. Useren klikker på en “marker som spam” knap.
+3. Systemet registrer det som spam.
+
+__Success guaratess__ Posten er blivet markeret som spam.
 
 
-__Success guaratess__ 
+__Extensions__ N/A
 
 
-__Extensions__ 
+__Special Requirements__ N/A
 
-
-__Special Requirements__ 
  
-### 1: Use case description for at logge ind
-
-__Use case__ Log ind
-
-__Scope__ N/A
-
-__Level Goal__ User
-
-__Primary Actor__  Man skal være på login siden.
-
-__Precondition__ 
-
-__Main succes scenario:__
-
-1. Brugeren klikker på login menuen.
-2. Systemet spørger efter brugernavn og password.
-3. Brugeren indsætter brugernavn og password.
-4. Systemet tjekker brugernavn og passwordet.
-5. Hvis inputværdierne er valide vil man blive logget ind og få vist forsiden, hvor man kan se, at man er logget ind.
-
-
-__Success guaratess__ 
-
-
-__Extensions__ 
-
-
-__Special Requirements__ 
- 
-### 1: Use case description for at logge ind
-
-__Use case__ Log ind
-
-__Scope__ N/A
-
-__Level Goal__ User
-
-__Primary Actor__  Man skal være på login siden.
-
-__Precondition__ 
-
-__Main succes scenario:__
-
-1. Brugeren klikker på login menuen.
-2. Systemet spørger efter brugernavn og password.
-3. Brugeren indsætter brugernavn og password.
-4. Systemet tjekker brugernavn og passwordet.
-5. Hvis inputværdierne er valide vil man blive logget ind og få vist forsiden, hvor man kan se, at man er logget ind.
-
-
-__Success guaratess__ 
-
-
-__Extensions__ 
-
-
-__Special Requirements__ 
- 
-
 
 ### A brief use case description for all other use-cases if any
 
