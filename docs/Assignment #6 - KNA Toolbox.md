@@ -26,8 +26,474 @@ Vi har delt vores projekt ind i to subsystemer:
 
 
 
-### A fully dressed use case description for all use cases, or at least the
-use-cases identified above.
+### A fully dressed use case description for all use cases, or at least the use-cases identified above.
+
+
+### 1: Use case description for at logge ind
+
+__Use case__ Log ind
+
+__Scope__ System validerer brugeren.
+
+__Level Goal__ User
+
+__Primary Actor__  Man skal være på login siden.
+
+__Precondition__ 
+
+__Main succes scenario:__
+
+1. Brugeren klikker på login menuen.
+2. Systemet spørger efter brugernavn og password.
+3. Brugeren indsætter brugernavn og password.
+4. Systemet tjekker brugernavn og passwordet.
+5. Hvis inputværdierne er valide vil man blive logget ind og få vist forsiden, hvor man kan se, at man er logget ind.
+
+
+__Success guaratess__ 
+
+
+__Extensions__ 
+
+
+__Special Requirements__ 
+ 
+### 1: Use case description for at logge ind
+
+__Use case__ Log ind
+
+__Scope__ System validerer brugeren.
+
+__Level Goal__ User
+
+__Primary Actor__  Man skal være på login siden.
+
+__Precondition__ 
+
+__Main succes scenario:__
+
+1. Brugeren klikker på login menuen.
+2. Systemet spørger efter brugernavn og password.
+3. Brugeren indsætter brugernavn og password.
+4. Systemet tjekker brugernavn og passwordet.
+5. Hvis inputværdierne er valide vil man blive logget ind og få vist forsiden, hvor man kan se, at man er logget ind.
+
+
+__Success guaratess__ 
+
+
+__Extensions__ 
+
+
+__Special Requirements__ 
+ 
+### 1: Use case description for at logge ind
+
+__Use case__ Log ind
+
+__Scope__ System validerer brugeren.
+
+__Level Goal__ User
+
+__Primary Actor__  Man skal være på login siden.
+
+__Precondition__ 
+
+__Main succes scenario:__
+
+1. Brugeren klikker på login menuen.
+2. Systemet spørger efter brugernavn og password.
+3. Brugeren indsætter brugernavn og password.
+4. Systemet tjekker brugernavn og passwordet.
+5. Hvis inputværdierne er valide vil man blive logget ind og få vist forsiden, hvor man kan se, at man er logget ind.
+
+
+__Success guaratess__ 
+
+
+__Extensions__ 
+
+
+__Special Requirements__ 
+ 
+### 1: Use case description for at logge ind
+
+__Use case__ Log ind
+
+__Scope__ System validerer brugeren.
+
+__Level Goal__ User
+
+__Primary Actor__  Man skal være på login siden.
+
+__Precondition__ 
+
+__Main succes scenario:__
+
+1. Brugeren klikker på login menuen.
+2. Systemet spørger efter brugernavn og password.
+3. Brugeren indsætter brugernavn og password.
+4. Systemet tjekker brugernavn og passwordet.
+5. Hvis inputværdierne er valide vil man blive logget ind og få vist forsiden, hvor man kan se, at man er logget ind.
+
+
+__Success guaratess__ 
+
+
+__Extensions__ 
+
+
+__Special Requirements__ 
+ 
+### 1: Use case description for at logge ind
+
+__Use case__ Log ind
+
+__Scope__ System validerer brugeren.
+
+__Level Goal__ User
+
+__Primary Actor__  Man skal være på login siden.
+
+__Precondition__ 
+
+__Main succes scenario:__
+
+1. Brugeren klikker på login menuen.
+2. Systemet spørger efter brugernavn og password.
+3. Brugeren indsætter brugernavn og password.
+4. Systemet tjekker brugernavn og passwordet.
+5. Hvis inputværdierne er valide vil man blive logget ind og få vist forsiden, hvor man kan se, at man er logget ind.
+
+
+__Success guaratess__ 
+
+
+__Extensions__ 
+
+
+__Special Requirements__ 
+ 
+### 1: Use case description for at logge ind
+
+__Use case__ Log ind
+
+__Scope__ System validerer brugeren.
+
+__Level Goal__ User
+
+__Primary Actor__  Man skal være på login siden.
+
+__Precondition__ 
+
+__Main succes scenario:__
+
+1. Brugeren klikker på login menuen.
+2. Systemet spørger efter brugernavn og password.
+3. Brugeren indsætter brugernavn og password.
+4. Systemet tjekker brugernavn og passwordet.
+5. Hvis inputværdierne er valide vil man blive logget ind og få vist forsiden, hvor man kan se, at man er logget ind.
+
+
+__Success guaratess__ 
+
+
+__Extensions__ 
+
+
+__Special Requirements__ 
+ 
+### 1: Use case description for at logge ind
+
+__Use case__ Log ind
+
+__Scope__ System validerer brugeren.
+
+__Level Goal__ User
+
+__Primary Actor__  Man skal være på login siden.
+
+__Precondition__ 
+
+__Main succes scenario:__
+
+1. Brugeren klikker på login menuen.
+2. Systemet spørger efter brugernavn og password.
+3. Brugeren indsætter brugernavn og password.
+4. Systemet tjekker brugernavn og passwordet.
+5. Hvis inputværdierne er valide vil man blive logget ind og få vist forsiden, hvor man kan se, at man er logget ind.
+
+
+__Success guaratess__ 
+
+
+__Extensions__ 
+
+
+__Special Requirements__ 
+ 
+### 1: Use case description for at logge ind
+
+__Use case__ Log ind
+
+__Scope__ System validerer brugeren.
+
+__Level Goal__ User
+
+__Primary Actor__  Man skal være på login siden.
+
+__Precondition__ 
+
+__Main succes scenario:__
+
+1. Brugeren klikker på login menuen.
+2. Systemet spørger efter brugernavn og password.
+3. Brugeren indsætter brugernavn og password.
+4. Systemet tjekker brugernavn og passwordet.
+5. Hvis inputværdierne er valide vil man blive logget ind og få vist forsiden, hvor man kan se, at man er logget ind.
+
+
+__Success guaratess__ 
+
+
+__Extensions__ 
+
+
+__Special Requirements__ 
+ 
+### 1: Use case description for at logge ind
+
+__Use case__ Log ind
+
+__Scope__ System validerer brugeren.
+
+__Level Goal__ User
+
+__Primary Actor__  Man skal være på login siden.
+
+__Precondition__ 
+
+__Main succes scenario:__
+
+1. Brugeren klikker på login menuen.
+2. Systemet spørger efter brugernavn og password.
+3. Brugeren indsætter brugernavn og password.
+4. Systemet tjekker brugernavn og passwordet.
+5. Hvis inputværdierne er valide vil man blive logget ind og få vist forsiden, hvor man kan se, at man er logget ind.
+
+
+__Success guaratess__ 
+
+
+__Extensions__ 
+
+
+__Special Requirements__ 
+ 
+### 1: Use case description for at logge ind
+
+__Use case__ Log ind
+
+__Scope__ System validerer brugeren.
+
+__Level Goal__ User
+
+__Primary Actor__  Man skal være på login siden.
+
+__Precondition__ 
+
+__Main succes scenario:__
+
+1. Brugeren klikker på login menuen.
+2. Systemet spørger efter brugernavn og password.
+3. Brugeren indsætter brugernavn og password.
+4. Systemet tjekker brugernavn og passwordet.
+5. Hvis inputværdierne er valide vil man blive logget ind og få vist forsiden, hvor man kan se, at man er logget ind.
+
+
+__Success guaratess__ 
+
+
+__Extensions__ 
+
+
+__Special Requirements__ 
+ 
+### 1: Use case description for at logge ind
+
+__Use case__ Log ind
+
+__Scope__ System validerer brugeren.
+
+__Level Goal__ User
+
+__Primary Actor__  Man skal være på login siden.
+
+__Precondition__ 
+
+__Main succes scenario:__
+
+1. Brugeren klikker på login menuen.
+2. Systemet spørger efter brugernavn og password.
+3. Brugeren indsætter brugernavn og password.
+4. Systemet tjekker brugernavn og passwordet.
+5. Hvis inputværdierne er valide vil man blive logget ind og få vist forsiden, hvor man kan se, at man er logget ind.
+
+
+__Success guaratess__ 
+
+
+__Extensions__ 
+
+
+__Special Requirements__ 
+ 
+### 1: Use case description for at logge ind
+
+__Use case__ Log ind
+
+__Scope__ System validerer brugeren.
+
+__Level Goal__ User
+
+__Primary Actor__  Man skal være på login siden.
+
+__Precondition__ 
+
+__Main succes scenario:__
+
+1. Brugeren klikker på login menuen.
+2. Systemet spørger efter brugernavn og password.
+3. Brugeren indsætter brugernavn og password.
+4. Systemet tjekker brugernavn og passwordet.
+5. Hvis inputværdierne er valide vil man blive logget ind og få vist forsiden, hvor man kan se, at man er logget ind.
+
+
+__Success guaratess__ 
+
+
+__Extensions__ 
+
+
+__Special Requirements__ 
+ 
+### 1: Use case description for at logge ind
+
+__Use case__ Log ind
+
+__Scope__ System validerer brugeren.
+
+__Level Goal__ User
+
+__Primary Actor__  Man skal være på login siden.
+
+__Precondition__ 
+
+__Main succes scenario:__
+
+1. Brugeren klikker på login menuen.
+2. Systemet spørger efter brugernavn og password.
+3. Brugeren indsætter brugernavn og password.
+4. Systemet tjekker brugernavn og passwordet.
+5. Hvis inputværdierne er valide vil man blive logget ind og få vist forsiden, hvor man kan se, at man er logget ind.
+
+
+__Success guaratess__ 
+
+
+__Extensions__ 
+
+
+__Special Requirements__ 
+ 
+### 1: Use case description for at logge ind
+
+__Use case__ Log ind
+
+__Scope__ System validerer brugeren.
+
+__Level Goal__ User
+
+__Primary Actor__  Man skal være på login siden.
+
+__Precondition__ 
+
+__Main succes scenario:__
+
+1. Brugeren klikker på login menuen.
+2. Systemet spørger efter brugernavn og password.
+3. Brugeren indsætter brugernavn og password.
+4. Systemet tjekker brugernavn og passwordet.
+5. Hvis inputværdierne er valide vil man blive logget ind og få vist forsiden, hvor man kan se, at man er logget ind.
+
+
+__Success guaratess__ 
+
+
+__Extensions__ 
+
+
+__Special Requirements__ 
+ 
+### 1: Use case description for at logge ind
+
+__Use case__ Log ind
+
+__Scope__ System validerer brugeren.
+
+__Level Goal__ User
+
+__Primary Actor__  Man skal være på login siden.
+
+__Precondition__ 
+
+__Main succes scenario:__
+
+1. Brugeren klikker på login menuen.
+2. Systemet spørger efter brugernavn og password.
+3. Brugeren indsætter brugernavn og password.
+4. Systemet tjekker brugernavn og passwordet.
+5. Hvis inputværdierne er valide vil man blive logget ind og få vist forsiden, hvor man kan se, at man er logget ind.
+
+
+__Success guaratess__ 
+
+
+__Extensions__ 
+
+
+__Special Requirements__ 
+ 
+### 1: Use case description for at logge ind
+
+__Use case__ Log ind
+
+__Scope__ System validerer brugeren.
+
+__Level Goal__ User
+
+__Primary Actor__  Man skal være på login siden.
+
+__Precondition__ 
+
+__Main succes scenario:__
+
+1. Brugeren klikker på login menuen.
+2. Systemet spørger efter brugernavn og password.
+3. Brugeren indsætter brugernavn og password.
+4. Systemet tjekker brugernavn og passwordet.
+5. Hvis inputværdierne er valide vil man blive logget ind og få vist forsiden, hvor man kan se, at man er logget ind.
+
+
+__Success guaratess__ 
+
+
+__Extensions__ 
+
+
+__Special Requirements__ 
+ 
+
 
 ### A brief use case description for all other use-cases if any
 
