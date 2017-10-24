@@ -2,6 +2,19 @@ The goal of this assignment is to create the basis for a FKA-Toolbox contract
 between the frontend and the backend subsystems of your large systems
 development project.
 
+**Team Roles**
+
+Anders Bjergfelt: Dev Ops, Project Manager. 
+
+Daniel Hillmann: Testing Lead (Q&A)
+
+Emil Gräs: Architect
+
+Frederik Bothmann Larsen: Lead Developer
+
+## Participation:
+
+Alle gruppemedlemmer har diskuteret opgaven og bidraget ligeligt. Dvs 25%.
 
 ## 1 Divide into sub-systems
 Vi har delt vores projekt ind i to subsystemer:
@@ -374,11 +387,20 @@ Men simulatoren simulerer en User og derfor vil den kunne gå under som en User.
 
 ### A Sub-system sequence diagram for all identified scenarios in the usecases
 
+
+### Login SSD 
+
 ![alt text](https://github.com/gode-ting/hackerNews-clone-project/blob/master/docs/System%20Sequence%20Diagram%20-%20Login.png "SSD")
+
+### All Posts 
 
 ![alt text](https://github.com/gode-ting/hackerNews-clone-project/blob/master/docs/System%20Sequence%20Diagram%20-%20All%20Posts.png "SSD")
 
+### Comment Post
+
 ![alt text](https://github.com/gode-ting/hackerNews-clone-project/blob/master/docs/System%20Sequence%20Diagram%20-%20Comment%20Post.png "SSD")
+
+### Upvote Post
 
 ![alt text](https://github.com/gode-ting/hackerNews-clone-project/blob/master/docs/System%20Sequence%20Diagram%20-%20Upvote.png "SSD")
 
