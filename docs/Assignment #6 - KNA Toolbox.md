@@ -4,7 +4,7 @@ development project.
 
 
 ## 1 Divide into sub-systems
-We have divided our project into two sub-systems. 
+Vi har delt vores projekt ind i to subsystemer:
 
 **Backend**: [Backend](https://github.com/gode-ting/hackernews-clone-backend)
 
@@ -32,6 +32,23 @@ use-cases identified above.
 ### A brief use case description for all other use-cases if any
 
 ### A description of all actors, including responsibilities.
+
+**User**: 
+
+Vi har én actor, som er en User. 
+
+*Hvorfor?*
+
+Fordi alle besøgende på siden vil blive behandlet som en user. En user kan være logget ind og deraf have flere rettigheder end en user, som ikke er logget ind. 
+En user som er logget ind kan oprette posts, kommentere, markere en post som spam, optjene karma point, up/downvote m.m.
+
+Ved at kunne foretage disse handlinger medfølger der et *naturligt ansvar* for at up/downvote retfærdigt. Ydermere, skal man heller ikke markere en post for spam, hvis man ikke kan lide en anden user. 
+
+**Man kunne godt** argumentere for, at der skulle være flere actors. 
+
+I opgavebeskrivelse er der beskrevet en simulator *simulator program to publish stories and comments to your system.*
+Men simulatoren simulerer en User og derfor vil den kunne gå under som en User. 
+ 
 
 ### A Sub-system sequence diagram for all identified scenarios in the usecases
 
