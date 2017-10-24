@@ -64,11 +64,11 @@ __Use case__ Log ind
 
 __Scope__ N/A
 
-__Level Goal__ User
+__Level Goal__ Få adgang og rettigheder til at uploade,poste m.m
 
-__Primary Actor__  Man skal være på login siden.
+__Primary Actor__  User
 
-__Precondition__ 
+__Precondition__ At useren er oprettet i systemet.
 
 __Main succes scenario:__
 
@@ -78,43 +78,42 @@ __Main succes scenario:__
 4. Systemet tjekker brugernavn og passwordet.
 5. Hvis inputværdierne er valide vil man blive logget ind og få vist forsiden, hvor man kan se, at man er logget ind.
 
+__Success guaratess__ Useren er logget ind.
 
-__Success guaratess__ 
+__Extensions__ Man skal have oprettet en profil først.
 
-
-__Extensions__ 
-
-
-__Special Requirements__ 
+__Special Requirements__ NONE
  
-### 1: Use case description for at logge ind
 
-__Use case__ Log ind
+### 2: Use case description for oprette en profil
+
+__Use case__ Oprette en profil
 
 __Scope__ N/A
 
-__Level Goal__ User
+__Level Goal__ Blive en registeret user, således, at man kan få rettigheder til at uploade, up/downvote m.m
 
-__Primary Actor__  Man skal være på login siden.
+__Primary Actor__  User
 
-__Precondition__ 
+__Precondition__ Ingen
 
 __Main succes scenario:__
 
-1. Brugeren klikker på login menuen.
-2. Systemet spørger efter brugernavn og password.
-3. Brugeren indsætter brugernavn og password.
-4. Systemet tjekker brugernavn og passwordet.
-5. Hvis inputværdierne er valide vil man blive logget ind og få vist forsiden, hvor man kan se, at man er logget ind.
+1. User tilgår sitet.
+2. User klikker på register på forsiden.
+3. User indsætter brugernavn og password.
+4. Systemet validerer brugernavn og password.
+5. Systemet registerer useren til systemet.
 
 
-__Success guaratess__ 
+__Success guaratess__ Useren er blevet registeret på siden.
 
 
-__Extensions__ 
+__Extensions__ Ingen
 
 
-__Special Requirements__ 
+__Special Requirements__ NONE
+
  
 ### 1: Use case description for at logge ind
 
