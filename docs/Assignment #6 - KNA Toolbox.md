@@ -33,7 +33,7 @@ Vi har delt vores projekt ind i to subsystemer:
 
 __Use case__ Log ind
 
-__Scope__ System validerer brugeren.
+__Scope__ N/A
 
 __Level Goal__ User
 
@@ -62,7 +62,7 @@ __Special Requirements__
 
 __Use case__ Log ind
 
-__Scope__ System validerer brugeren.
+__Scope__ N/A
 
 __Level Goal__ User
 
@@ -91,7 +91,7 @@ __Special Requirements__
 
 __Use case__ Log ind
 
-__Scope__ System validerer brugeren.
+__Scope__ N/A
 
 __Level Goal__ User
 
@@ -120,7 +120,7 @@ __Special Requirements__
 
 __Use case__ Log ind
 
-__Scope__ System validerer brugeren.
+__Scope__ N/A
 
 __Level Goal__ User
 
@@ -149,7 +149,7 @@ __Special Requirements__
 
 __Use case__ Log ind
 
-__Scope__ System validerer brugeren.
+__Scope__ N/A
 
 __Level Goal__ User
 
@@ -178,7 +178,7 @@ __Special Requirements__
 
 __Use case__ Log ind
 
-__Scope__ System validerer brugeren.
+__Scope__ N/A
 
 __Level Goal__ User
 
@@ -207,7 +207,7 @@ __Special Requirements__
 
 __Use case__ Log ind
 
-__Scope__ System validerer brugeren.
+__Scope__ N/A
 
 __Level Goal__ User
 
@@ -236,7 +236,7 @@ __Special Requirements__
 
 __Use case__ Log ind
 
-__Scope__ System validerer brugeren.
+__Scope__ N/A
 
 __Level Goal__ User
 
@@ -265,7 +265,7 @@ __Special Requirements__
 
 __Use case__ Log ind
 
-__Scope__ System validerer brugeren.
+__Scope__ N/A
 
 __Level Goal__ User
 
@@ -294,7 +294,7 @@ __Special Requirements__
 
 __Use case__ Log ind
 
-__Scope__ System validerer brugeren.
+__Scope__ N/A
 
 __Level Goal__ User
 
@@ -323,7 +323,7 @@ __Special Requirements__
 
 __Use case__ Log ind
 
-__Scope__ System validerer brugeren.
+__Scope__ N/A
 
 __Level Goal__ User
 
@@ -352,7 +352,7 @@ __Special Requirements__
 
 __Use case__ Log ind
 
-__Scope__ System validerer brugeren.
+__Scope__ N/A
 
 __Level Goal__ User
 
@@ -381,7 +381,7 @@ __Special Requirements__
 
 __Use case__ Log ind
 
-__Scope__ System validerer brugeren.
+__Scope__ N/A
 
 __Level Goal__ User
 
@@ -410,7 +410,7 @@ __Special Requirements__
 
 __Use case__ Log ind
 
-__Scope__ System validerer brugeren.
+__Scope__ N/A
 
 __Level Goal__ User
 
@@ -439,7 +439,7 @@ __Special Requirements__
 
 __Use case__ Log ind
 
-__Scope__ System validerer brugeren.
+__Scope__ N/A
 
 __Level Goal__ User
 
@@ -468,7 +468,7 @@ __Special Requirements__
 
 __Use case__ Log ind
 
-__Scope__ System validerer brugeren.
+__Scope__ N/A
 
 __Level Goal__ User
 
