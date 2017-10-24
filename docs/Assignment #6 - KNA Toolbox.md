@@ -374,3 +374,12 @@ Men simulatoren simulerer en User og derfor vil den kunne gå under som en User.
 
 ### A Sub-system sequence diagram for all identified scenarios in the usecases
 
+![alt text](https://github.com/gode-ting/hackerNews-clone-project/blob/master/docs/System%20Sequence%20Diagram%20-%20Login.png "SSD")
+
+![alt text](https://github.com/gode-ting/hackerNews-clone-project/blob/master/docs/System%20Sequence%20Diagram%20-%20All%20Posts.png "SSD")
+
+![alt text](https://github.com/gode-ting/hackerNews-clone-project/blob/master/docs/System%20Sequence%20Diagram%20-%20Comment%20Post.png "SSD")
+
+![alt text](https://github.com/gode-ting/hackerNews-clone-project/blob/master/docs/System%20Sequence%20Diagram%20-%20Upvote.png "SSD")
+
+
