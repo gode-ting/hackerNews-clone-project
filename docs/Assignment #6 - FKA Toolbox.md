@@ -48,9 +48,9 @@ __Use case__ Log ind
 
 __Scope__ N/A
 
-__Level Goal__ User
+__Level Goal__ Efter useren har logget ind, skal han have rettigheder til at oprette posts m.m.
 
-__Primary Actor__  Man skal være på login siden.
+__Primary Actor__  User
 
 __Precondition__ 
 
