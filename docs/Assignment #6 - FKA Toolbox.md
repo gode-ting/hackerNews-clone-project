@@ -387,21 +387,29 @@ Men simulatoren simulerer en User og derfor vil den kunne gå under som en User.
 
 ### A Sub-system sequence diagram for all identified scenarios in the usecases
 
+Vi har taget udgangspunkt i de mest væsentlige for projektet. 
 
 ### Login SSD 
 
 ![alt text](https://github.com/gode-ting/hackerNews-clone-project/blob/master/docs/System%20Sequence%20Diagram%20-%20Login.png "SSD")
 
+*Log ud* vil minde om dette.
+
+
 ### All Posts 
 
 ![alt text](https://github.com/gode-ting/hackerNews-clone-project/blob/master/docs/System%20Sequence%20Diagram%20-%20All%20Posts.png "SSD")
+
+*Hvis man kun skal have en enkelt post bliver der sendt et id med.* Altså : **GET:/api/post/{id:Number}**
+
 
 ### Comment Post
 
 ![alt text](https://github.com/gode-ting/hackerNews-clone-project/blob/master/docs/System%20Sequence%20Diagram%20-%20Comment%20Post.png "SSD")
 
+
 ### Upvote Post
 
 ![alt text](https://github.com/gode-ting/hackerNews-clone-project/blob/master/docs/System%20Sequence%20Diagram%20-%20Upvote.png "SSD")
 
-
+*Downvote vil komme til at ligne denne. Der vil komme til at stå downvote i stedet for upvote*
