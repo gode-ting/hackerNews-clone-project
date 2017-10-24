@@ -17,9 +17,14 @@ We have divided our project into two sub-systems.
 ![alt text](https://github.com/gode-ting/hackerNews-clone-project/blob/master/docs/Logical%20Datal%20Model_updated.png "Logical Data Model")
 
 
+
 ## 3 Use Case Model
 
 ### A complete use case diagram
+
+![alt text](https://github.com/gode-ting/hackerNews-clone-project/blob/master/docs/Use%20Case%20Diagram.png "Use case diagram")
+
+
 
 ### A fully dressed use case description for all use cases, or at least the
 use-cases identified above.
