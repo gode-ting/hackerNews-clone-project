@@ -395,6 +395,7 @@ Vi har taget udgangspunkt i de mest væsentlige for projektet.
 
 *Log ud* vil minde om dette.
 
+*Authentication* vil se sådan her ud: **POST(SignUpCred):/api/user/signup**
 
 ### All Posts 
 
