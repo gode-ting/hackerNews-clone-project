@@ -159,6 +159,12 @@ The preferred way to create a Docker Image is with a script known as a Dockerfil
 
 To build a Docker Image from our Spring Application is to add the Dockerfile that contains the instructions for Docker to build the Image for the application.
 
+We also use a mongodb container on prod server. 
+
+It can be accessed, when logged into the server:
+*docker exec -it [container name/ID] sh*
+
+
 ```shell
 FROM openjdk:8-jdk-alpine
 VOLUME /tmp
@@ -336,7 +342,7 @@ cebcfccbc79f: Pull complete
 Digest: sha256:6c0697f5e1a0d3373b386c96a3d472af4c4840df0e3f3589cb7f0a12664c4d91
 Status: Downloaded newer image for [secure]/hackernewscloneserver:101
 9a51c79eb17b1c117dbc5fdece94706596fbb90d8bde3666b6dea89a9ca16823
-``
+```
 *9a51c79eb17b1c117dbc5fdece94706596fbb90d8bde3666b6dea89a9ca16823* is {container_image_id}
 
 
