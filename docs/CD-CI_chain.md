@@ -11,7 +11,7 @@
 
 [Link to backend-application](http://46.101.190.192:8080/status)
 
-[Frontend Project](https://github.com/gode-ting/hackernews-clone-frontend)
+[Frontend Project](https://github.com/gode-ting/hackerNews-clone-project-frontend)
 
 [Backend Project](https://github.com/gode-ting/hackernews-clone-backend)
 
