@@ -6,6 +6,16 @@
 * [Description](#description)
 * [Setup and configuration](#setup-and-configuration)
 
+**Team Roles**
+
+Anders Bjergfelt: Dev Ops, Project Manager. 
+
+Daniel Hillmann: Testing Lead (Q&A)
+
+Emil Gräs: Architect
+
+Frederik Bothmann Larsen: Lead Developer
+
 ---
 ## Link
 
