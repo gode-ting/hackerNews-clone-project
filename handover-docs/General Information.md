@@ -16,18 +16,23 @@ The system does not contain all use cases as described in the original requireme
 ## System architecture
 The complete system is divided in 2 seperate components 1) a `frontend component`, and 2) a `backend component`.
 
-* __*The Backend System*__
+* __*The Backend System*__  
+
   The backend is a RESTful webservice completely written in Java using the Spring Boot framework. The database used is a         MongoDB.
   
-* *__The Frontend System*__
+* __*The Frontend System*__  
+
   The frontend is a website written in JavaScript using a popular JS template engine named Pug. 
   
-* *__Containerization*__
+* __*Containerization*__  
+
   We use Docker to containerize our environment.
   
-* *__Continous Integration and Deployment using Travis CI*__
+* __*Continous Integration and Deployment using Travis CI*__  
+
   We are utilizing the benefits of Travis CI and Docker to easily deploy out api to Digital Ocean
 
-* *__Hosting__*
+* __*Hosting__*  
+
   The frontend website is hosted at GitHub. The backend is hosted at Digital Ocean.
 
