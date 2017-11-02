@@ -30,9 +30,9 @@ The complete system is divided in 2 seperate components 1) a `frontend component
   
 * __*Continous Integration and Deployment using Travis CI*__  
 
-  We are utilizing the benefits of Travis CI and Docker to easily deploy out api to Digital Ocean
+  We are utilizing the benefits of Travis CI and Docker to easily deploy our api to Digital Ocean
 
-* __*Hosting__*  
+* __*Hosting*__   
 
   The frontend website is hosted at GitHub. The backend is hosted at Digital Ocean.
 
