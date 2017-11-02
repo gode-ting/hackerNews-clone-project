@@ -345,8 +345,9 @@ Status: Downloaded newer image for [secure]/hackernewscloneserver:101
 ```
 *9a51c79eb17b1c117dbc5fdece94706596fbb90d8bde3666b6dea89a9ca16823* is {container_image_id}
 
-** We need to sudo. What is password for builder@46.101.190.192 ? **
-*Godeting123*
+**We need to sudo. What is password for builder@46.101.190.192 ?**
+
+*godeting123*
 
 
 
