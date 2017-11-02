@@ -9,3 +9,6 @@ Once you have downloaded the software and opened it you can create a connection.
 - `32768` : the specific port that mongo db is listening on
 
 Now, you should be able to look at what is inside the database. 
+
+## About the missing requirements
+The system does not contain all use cases as described in the original requirements analysis document. The complete and finished use case diagram is attched in the documents.
