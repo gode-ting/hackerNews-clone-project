@@ -16,7 +16,7 @@ The system does not contain all use cases as described in the original requireme
 ## System architecture
 The complete system is divided in 2 seperate components 1) a `frontend component`, and 2) a `backend component`.
 
-* *__The Backend System*__
+* __*The Backend System*__
   The backend is a RESTful webservice completely written in Java using the Spring Boot framework. The database used is a         MongoDB.
   
 * *__The Frontend System*__
