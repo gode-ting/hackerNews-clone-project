@@ -3,7 +3,7 @@
 ## Introduction
 This document includes the service-level agreement between Group B and Group C, wherein we will outline the mutual SLA for the monitoring of the Hacker News system developed and maintained by Group C.
 
-The SLA will include agreed-upon metrics for which the HackerNews system will be maintained by Group B, particularly with regards to the average uptime of the system under observation, mean response time of the system, mean time to recovery on failure, failure frequency, maintenance group alarms, and the timeframe in which the maintenance group must respond to inquiries by the observing group.
+The SLA will include agreed-upon metrics for which the HackerNews system will be maintained by Group B, particularly with regards to the average uptime of the system under observation, mean response time of the system, mean uptime, total uptime and number of requests on a number of different endpoints.
 
 ## Up
 Up is a simple metric that lets you know whether the service is up or down. It should never be down unless the system is under maintenance. I everything is working it will say Yes.
