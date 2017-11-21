@@ -17,8 +17,8 @@ Swarms are useful for distributing services across many machines. This helps to 
 
 ### docker node ls
 
-![docker node ls](path)
+![docker node ls](https://github.com/gode-ting/hackerNews-clone-project/blob/master/docs/docker-node-ls.png)
 
 ### docker service ls
 
-![docker service ls](path) 
+![docker service ls](https://github.com/gode-ting/hackerNews-clone-project/blob/master/docs/docker-service-ls.png) 
