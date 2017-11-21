@@ -24,6 +24,9 @@ The complete system is divided in 2 seperate components 1) a `frontend component
 
   The frontend is a website written in JavaScript using a popular JS template engine named Pug. 
   
+  ### Url
+  [http://hacker-newz.bitballoon.com/](http://hacker-newz.bitballoon.com/)
+  
 * __*Containerization*__  
 
   We use Docker to containerize our environment.
