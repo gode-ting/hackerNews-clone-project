@@ -102,7 +102,7 @@ Derudover kunne vi tilføje features på både front- og backend sideløbende, h
 
 In this section you illustrate and describe the architecture of your Hackernews clone. That is, you describe how your system is structured and how the different parts interact and communicate with each other.
 
-**Systemet** har tre hovedkomponenter, en backend, en frontend og en database. Vores frontend kommunikere med vores backend via et API, og vores backend persisterer og henter information til og fra vores database.
+**Systemet** har tre hovedkomponenter, en backend, en frontend og en database. Vores frontend kommunikere med vores backend via et API, og vores backend persisterer og henter information til og fra vores database. Et færdigt klasse diagram kan ses ![her](https://github.com/gode-ting/hackerNews-clone-project/blob/master/handover-docs/Complete%20Class%20Diagram.png).
 
 **Backenden** er en RESTful web service skrevet i Java, hvor vi benytter os af Spring Boot frameworket.
 
@@ -110,9 +110,6 @@ In this section you illustrate and describe the architecture of your Hackernews 
 
 **Frontenden** er lavet som en server-rendered side, som er lavet med node.js og er skrevet i javascript. For at lave en server-rendered side i node.js, skal man bruge et modul/framework. Vi har valgt at bruge express.js1, som er et af de mere kendte moduler til dette formål.  For at express kan vise content hos klienten, skal det have en template engine, som omdannes til html. I teorien kunne man bare benytte ren html, men ved at benytte en template engine, får man en række øgede funktionaliteter som gør, at det både er nemmere og hurtigere at skrive. I vores projekt har vi brugt pug.js2. Frontenden er bygget op omkring en hoved javascript fil (src/app.js), som er den fil opsætter og håndterer request til siden. Det er her, at de forskellige routes håndteres og middleware indlæses. Routes opsættes som eksterne filer, som står for at håndtere de pågældende requests til et givent url, og derudfra rendere et specifikt html content hos klienten.
 
-Overordnet set, kan det illustreres således:
-
-\*Tilføj klasse diagram??? siden der står **illustrate** \*
 
 ### 1.4. Software design
 
