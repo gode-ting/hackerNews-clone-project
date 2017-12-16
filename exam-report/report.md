@@ -35,6 +35,7 @@ Opgaven var at lave en kopi af [Hacker News](https://en.wikipedia.org/wiki/Hacke
 
 Her ses et use case diagram, der beskriver vores system:
 ![](https://github.com/gode-ting/hackerNews-clone-project/blob/master/handover-docs/Complete%20Usecase%20Diagram.png)
+<div style="text-align:center"><img src ="https://github.com/gode-ting/hackerNews-clone-project/blob/master/handover-docs/Complete%20Usecase%20Diagram.png" /></div>
 
 Der er flere succeskriterier der skal opfyldes før at webapplikationen kan kaldes en succes. Webapplikationen skal leve op til både de funktionelle og non-funktionelle krav. Dertil skal der være en brugervenlighed hvorpå man ikke er i tvivl om, hvordan webapplikationen bruges. Et af kravene er f.eks. &quot; your system has to have an uptime of more than 95% &quot;. Dette ville være et succeskriterie, da der forventes, at man skal kunne oprette nyheder og kommentere nyhederne via REST API. Hvis systemet ikke har en stabil oppetid vil det resultere i, at man ikke kan tilgå REST APIet. Systemet vil gøre det let for brugere at kunne oprette nyheder og få tilhørende feedback fra andre brugere.
 
