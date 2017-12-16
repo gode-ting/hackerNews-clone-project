@@ -102,7 +102,7 @@ Derudover kunne vi tilføje features på både front- og backend sideløbende, h
 
 In this section you illustrate and describe the architecture of your Hackernews clone. That is, you describe how your system is structured and how the different parts interact and communicate with each other.
 
-**Systemet** har tre hovedkomponenter, en backend, en frontend og en database. Vores frontend kommunikere med vores backend via et API, og vores backend persisterer og henter information til og fra vores database. Et færdigt klasse diagram kan ses ![her](https://github.com/gode-ting/hackerNews-clone-project/blob/master/handover-docs/Complete%20Class%20Diagram.png).
+**Systemet** har tre hovedkomponenter, en backend, en frontend og en database. Vores frontend kommunikere med vores backend via et API, og vores backend persisterer og henter information til og fra vores database. Et færdigt klasse diagram kan ses herunder: ![her](https://github.com/gode-ting/hackerNews-clone-project/blob/master/handover-docs/Complete%20Class%20Diagram.png)
 
 **Backenden** er en RESTful web service skrevet i Java, hvor vi benytter os af Spring Boot frameworket.
 
