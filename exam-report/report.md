@@ -236,3 +236,5 @@ En beskrivende faktor til hvorfor maintenance-delen ikke kørte helt optimalt, k
 * Github branch: [https://guides.github.com/introduction/flow/](https://guides.github.com/introduction/flow/)
 * Express.js https://expressjs.com/
 * pug.js https://pugjs.org/api/getting-started.html
+* UP https://github.com/datsoftlyngby/soft2017fall-lsd-teaching-material/blob/master/lecture_notes/10-Disciplined%20Methods/UP%20Use%20Cases.pdf
+* XP https://en.wikipedia.org/wiki/Extreme_programming
