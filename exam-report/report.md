@@ -105,8 +105,6 @@ Derudover kunne vi tilføje features på både front- og backend sideløbende, h
 
 ### 1.3. Software architecture
 
-In this section you illustrate and describe the architecture of your Hackernews clone. That is, you describe how your system is structured and how the different parts interact and communicate with each other.
-
 **Systemet** har tre hovedkomponenter, en backend, en frontend og en database. Vores frontend kommunikere med vores backend via et API, og vores backend persisterer og henter information til og fra vores database. Et færdigt klasse diagram kan ses herunder: ![her](https://github.com/gode-ting/hackerNews-clone-project/blob/master/handover-docs/Complete%20Class%20Diagram.png)
 
 **Backenden** er en RESTful web service skrevet i Java, hvor vi benytter os af Spring Boot frameworket.
@@ -118,24 +116,20 @@ In this section you illustrate and describe the architecture of your Hackernews 
 
 ### 1.4. Software design
 
-Here you should sketch your thoughts on the software design _before_ you started implementing the system. This includes describing the technical concerns you had about the system before you started development, together with all the technical components you came up with to fix these concerns and meet the requirements.
-
 Det første problem vi stødte på, dukkede op lige efter vi havde fået styr på hvad systemets requirements var, og hvad en bruger skulle kunne. Problemet lød på hvordan vi skulle designe vores model udfra de entiteter vi havde noteret ned fra vores requirements. Vi havde entiteter som en story og en comment, og ikke nok med det, så kunne en story være forskellige ting så som et simpelt link, eller en discussion. Vi vidste at alle de forrige nævnte entiteter havde nogle ting til fælles f.eks. det at man skulle kunne upvote og downvote dem. derfor ville det jo give mening at have dem alle under det samme objekt. men på den anden side ville det også give redundans i vores kode og vores database, fordi de forskellige entiteter ikke benytter sig af alle variabler. Vi blev enig om at vi sagtens kunne håndtere redundans, hvorimod den anden løsning ville kræve flere håndteringer og derfor mere arbejde.
 
 Vi løb hurtigt ind i endnu et problem på grund af entiteterne, og problemet lød på hvilken slags database vi skulle vælge. Både SQL og NoSQL databaser ville kunne løse problemet fint, på hver deres måde. VI valgte at gå med NoSQL, da disse databaser ikke bruger skemaer og dermed er rigtigt gode til at modellere dokumenter, som kan kan variere i indhold.
 
 En graph database ville have været et fint valg, på grund af de mange relationer mellem vores entiteter, og hvordan de er kædet sammen f.eks. comments på comments osv. Men selvom at en graph database var et godt valg, endte vi med at bruge en document based database. Det valgte fordi at et entitet-set med opslag og kommentare passer perfekt til documents based databaser til den struktur. Fordi hvert document ville indeholde dets children documents, ville vi nemt kunne hente al informationen fra en given post uden problemer.
 
-udover at en document based database var et godt valg på grund af strukturen på entiteterne, var det også et godt valg, fordi vi jo havde valgt at kommentare og de forskellige typer opslag skulle gemmes som det samme slags objekt, og der er det jo en fordel af document based databaser er skema løse.
+Udover at en document based database var et godt valg på grund af strukturen på entiteterne, var det også et godt valg, fordi vi jo havde valgt at kommentare og de forskellige typer opslag skulle gemmes som det samme slags objekt, og der er det jo en fordel af document based databaser er skemaløse.
 
 ### 1.5. Software implementation
-
-This section should describe your actual implementation. Mainly how well you followed the requirements, process and software design you began with. If your system changed during this phase you should summarise the unexpected events/problems and explain how you solved them.
 
 Vi har haft fokus på at følge alle de funktionelle krav, som vi også har kunnet realisere under implementationen.
 Den proces som vi havde sat os for at følge, var en kombination af Scrum og XP. Den primære årsag var, at vi ikke kunne forudse, hvis der skulle foretages ændringer undervejs i udviklingsprocessen og derfor måtte gardere os mod dette. På papiret var det hele tilrettelagt, men der har været huller i forhold til at realisere dette 100%. Vi prøvede i starten at køre sprints, men endte ud i at køre det meste ad-hoc.
 
-Vores software design har vi kunnet realisere
+Vores software design har vi kunnet realisere og benytte fra start til slut. 
 
 Der er har været problemer undervejs som har gjort, at vi har været nødsaget til at foretage ændringer. Vi har altid arbejdet med mindre systemer, hvor der ikke har været større datamængder. I dette projekt bliver der hver dag sendt data, i form af posts, til vores system som skal persisteres. Det hober sig op, og hver gang man skal hente information ud fra databasen, vil operationen, af naturlige årsager, tage længere tid. Hver gang system endpointet &quot;/latest&quot; bliver kaldt, tager vores kode alle posts, som er sendt fra simulatoren, sorterer dem, og tager det første elements hanesstID. Det er mange elementer som den skal query hver gang, og det kræver hukommelse. Det endte ud i en Out of Memory error, og vi var nødsaget til at refakturere vores kode, således, at den bedre kunne håndtere dette.
 
@@ -147,7 +141,9 @@ Denne sektion beskriver vedligeholdelse af systemet. Perioden strækker sig fra 
 
 ### 2.1. Hand-over
 
-Kvaliteten af dokumentation var fin i forhold til de informationer der skulle bruges til at kunne overvåge deres system. Der var links til de forskellige komponenter/systemer, en guide til hvordan de ønskede at vi angav fejl. Til slut var der en oversigt over deres REST-API med fokus på post og comments. Alt i alt, følte vi os klædt på til at kunne vedligeholde systemet.
+Kvaliteten af dokumentation var fin i forhold til de informationer der skulle bruges til at kunne overvåge deres system. 
+
+Der var links til de forskellige komponenter/systemer, en guide til hvordan de ønskede at vi angav fejl. Til slut var der en oversigt over deres REST-API med fokus på post og comments. Alt i alt, følte vi os klædt på til at kunne vedligeholde systemet.
 
 ### 2.2. Service-level agreement
 
