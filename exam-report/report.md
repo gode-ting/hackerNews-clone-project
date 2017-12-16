@@ -33,6 +33,9 @@ Opgaven var at lave en kopi af [Hacker News](https://en.wikipedia.org/wiki/Hacke
 - Backenden skal udvikles i Java med brug af Spring Boot frameworket
 - Kommunikationen imellem frontend og backend skal ske over http-protokollen
 
+Her ses et use case diagram, der beskriver vores system:
+![](https://github.com/gode-ting/hackerNews-clone-project/blob/master/handover-docs/Complete%20Usecase%20Diagram.png)
+
 Der er flere succeskriterier der skal opfyldes før at webapplikationen kan kaldes en succes. Webapplikationen skal leve op til både de funktionelle og non-funktionelle krav. Dertil skal der være en brugervenlighed hvorpå man ikke er i tvivl om, hvordan webapplikationen bruges. Et af kravene er f.eks. &quot; your system has to have an uptime of more than 95% &quot;. Dette ville være et succeskriterie, da der forventes, at man skal kunne oprette nyheder og kommentere nyhederne via REST API. Hvis systemet ikke har en stabil oppetid vil det resultere i, at man ikke kan tilgå REST APIet. Systemet vil gøre det let for brugere at kunne oprette nyheder og få tilhørende feedback fra andre brugere.
 
 Til refleksion har vi i gruppen snakket om, hvorvidt vi synes at hjemmesiden er færdig eller ej. Vi er enige om at vores program, er det man kalder et minimum viable product (MVP) og derfor kun lige lever op til opgavebeskrivelsen af systemet. Det betyder at vores system mangler nogle basale features, før det ville være anstændigt at sætte det i produktion. Det er en beslutning taget helt fra starten, og vi føler derfor alligevel at vi er noget i mål med opgaven.
