@@ -34,8 +34,6 @@ Opgaven var at lave en kopi af [Hacker News](https://en.wikipedia.org/wiki/Hacke
 - Kommunikationen imellem frontend og backend skal ske over http-protokollen
 
 Her ses et use case diagram, der beskriver vores system:
-![](https://github.com/gode-ting/hackerNews-clone-project/blob/master/handover-docs/Complete%20Usecase%20Diagram.png)
-
 <p align="center"> 
 <img src="https://github.com/gode-ting/hackerNews-clone-project/blob/master/handover-docs/Complete%20Usecase%20Diagram.png">
 </p>
